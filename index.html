@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            @media print {
+                .screen-only {
+                    display: none;
+                }
+            }
+            .alert {
+                margin: 20px;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            div {                
+                margin:30px;
+                padding:20px;                
+            }
+            p::selection {
+                color: red;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">                        
+            <div class="alert alert-danger" role="alert">
+                Corona virus!!!!  Be careful....
+            </div>
+        </div>        
+        <img src = "https://www.who.int/images/default-source/health-topics/coronavirus/gettyimages-1181575980.tmb-1024v.jpg?Culture=en&sfvrsn=7ec493b8_22%201024w"
+        height = "500" width = "1200" style="width:50%;">
+        <div>
+            <p>
+                A new virus called the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) was identified as the cause 
+                of a disease outbreak that began in China in 2019. The disease is called coronavirus disease 2019 (COVID-19).
+            </p>
+            <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+                Many people died due to this virus accross the world. Maany places undergone lockdown due to
+                this and people through out the world are in fear of death due to that virus.
+            </p>            
+            <p>
+                In March 2020, the World Health Organization (WHO) declared COVID-19 a pandemic. Public health groups, 
+                including the U.S. Centers for Disease Control and Prevention (CDC) and WHO, are monitoring the pandemic 
+                and posting updates on their websites. These groups have also issued recommendations for preventing and treating 
+                the illness.
+            </p> 
+            <p class="screen-only">
+                At this time, there are no specific vaccines or treatments for COVID-19. However, there are 
+                many ongoing clinical trials evaluating potential treatments.
+            </p>           
+            <p>To know more about the coronavirus, go through the following links.<br></p>           
+            <a href="first.html">Symptoms of coronavirus<br></a>
+            <a href="second.html">Precautions that should be taken<br></a>
+            <a href="third.html">Latest news regarding corona<br></a> 
+        </div>
+    </body>
+</html>
+
